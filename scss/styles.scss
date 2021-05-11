@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap'); 
+
+// === MIXINS ===
+@mixin public-sans {
+    font-family: 'Public Sans', sans-serif;
+}
+// === / MIXINS ===
+
+// === VARIABLES ===
+$fw-light: 300; 
+$fw-regular: 400; 
+$fw-bold: 700; 
+$padding-vertical: 90px;
+
+// === / VARIABLES ===
+
+// === COMMON ===
+body {
+    @include public-sans;
+}
+
+.section-outer {
+    background-color: aquamarine;
+}
+
+.section-inner {
+    max-width: 1275px;
+    margin: 0 auto;
+    padding-top: $padding-vertical;
+    padding-bottom: $padding-vertical;
+}
+
+// === / COMMON ===
+
+// === HEADER ===
+.section-header {
+
+}
+// === / HEADER 
+
+// === HERO ===
+.section-hero {
+
+}
+// === / HERO ===
+
+// === FEATURES ===
+.section-features {
+
+}
+// === / FEATURES ===
+
+// === ARTICLES ===
+.section-articles {
+
+}
+// === / ARTICLES ===
+
+// === FOOTER ===
+.section-footer {
+
+}
+// === / FOOTER ===
+
+
+

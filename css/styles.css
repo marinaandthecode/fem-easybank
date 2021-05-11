@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
+body {
+  font-family: 'Public Sans', sans-serif; }
+
+.section-outer {
+  background-color: aquamarine; }
+
+.section-inner {
+  max-width: 1275px;
+  margin: 0 auto;
+  padding-top: 90px;
+  padding-bottom: 90px; }
