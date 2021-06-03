@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
 body {
-  font-family: 'Public Sans', sans-serif; }
+  font-family: 'Public Sans', sans-serif;
+  font-size: 18px;
+  color: #9698a6; }
 
 .section-outer {
   background-color: aquamarine; }
@@ -10,3 +12,19 @@ body {
   margin: 0 auto;
   padding-top: 90px;
   padding-bottom: 90px; }
+
+.section-header {
+  background-color: white; }
+
+.section-hero {
+  background-color: #fafafa; }
+
+.section-features {
+  background-color: #f3f4f6; }
+
+.section-articles {
+  background-color: #fafafa; }
+
+.section-footer {
+  background-color: #2d314d;
+  color: white; }
