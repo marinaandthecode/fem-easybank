@@ -49,7 +49,7 @@ body {
     background-color: $color-neutral-white; 
     position: fixed;
     width: 100vw;
-    z-index: 3;
+    z-index: 3; 
     .section-inner {
         display: flex;
         flex-direction: row;
@@ -59,12 +59,13 @@ body {
 }
 
 .header__logo {
-    padding: 12px 0;
+    padding: 13px 0;
 }
 
 .header__nav {
     padding: 12px 0;
-    font-size: 15px;
+    font-size: 14px;
+    font-weight: $fw-light;
 }
 
 .nav__list {
@@ -90,7 +91,7 @@ body {
     background: linear-gradient(135deg, $color-primary-lime-green, $color-primary-bright-cyan);
     width: 165px;
     height: 44px;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: $fw-regular;
     color: $color-neutral-light-grayish-blue;
 }
@@ -106,7 +107,7 @@ body {
 
 .intro__content {
     min-width: 33vw;
-    margin-top: 122px;
+    margin-top: 124px;
 }
 
 
@@ -129,8 +130,8 @@ body {
 
 .intro__mockups {
     position: absolute;
-    top: 135px;
-    right: 335px;
+    top: 140px;
+    right: 325px;
 }
 
 

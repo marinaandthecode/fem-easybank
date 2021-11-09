@@ -23,11 +23,12 @@ body {
     padding: 18px 0; }
 
 .header__logo {
-  padding: 12px 0; }
+  padding: 13px 0; }
 
 .header__nav {
   padding: 12px 0;
-  font-size: 15px; }
+  font-size: 14px;
+  font-weight: 300; }
 
 .nav__list {
   padding: 0;
@@ -49,7 +50,7 @@ body {
   background: linear-gradient(135deg, #31d35c, #2bb7da);
   width: 165px;
   height: 44px;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
   color: #f3f4f6; }
 
@@ -61,7 +62,7 @@ body {
 
 .intro__content {
   min-width: 33vw;
-  margin-top: 122px; }
+  margin-top: 124px; }
 
 .intro__title {
   color: #2d314d;
@@ -78,8 +79,8 @@ body {
 
 .intro__mockups {
   position: absolute;
-  top: 135px;
-  right: 335px; }
+  top: 140px;
+  right: 325px; }
 
 .section-features {
   background-color: #f3f4f6;
