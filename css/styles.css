@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
-body {
+html, body {
   font-family: 'Public Sans', sans-serif;
   font-size: 18px;
   line-height: 1.5;
@@ -10,6 +10,10 @@ body {
   margin: 0 auto;
   padding-top: 90px;
   padding-bottom: 90px; }
+
+.title {
+  color: #2d314d;
+  font-weight: 300; }
 
 .section-header {
   background-color: white;
@@ -65,9 +69,7 @@ body {
   margin-top: 124px; }
 
 .intro__title {
-  color: #2d314d;
   font-size: 3em;
-  font-weight: 300;
   line-height: 1.15; }
 
 .intro__button {
@@ -86,7 +88,25 @@ body {
   background-color: #f3f4f6;
   margin-top: -450px; }
   .section-features .section-inner {
-    padding-top: 180px; }
+    padding-top: 60px; }
+
+.features__title {
+  font-size: 2.2rem;
+  margin-bottom: 0; }
+
+.features__description {
+  margin-bottom: 4.2rem; }
+
+.features__cards {
+  display: flex;
+  gap: 1.5rem; }
+
+.card__title {
+  font-size: 1.3rem; }
+
+.card__text {
+  font-size: 0.85rem;
+  line-height: 1.75; }
 
 .section-articles {
   background-color: #fafafa; }

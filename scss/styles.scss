@@ -26,12 +26,13 @@ $color-neutral-white: hsl(0, 0%, 100%);
 
 
 // === COMMON ===
-body {
+html, body {
     @include public-sans;
     font-size: $font-size-body;
     line-height: $line-height;
     color: $color-neutral-grayish-blue;
 }
+
 
 // .section-outer {
 //     background-color: aquamarine;
@@ -42,6 +43,11 @@ body {
     margin: 0 auto;
     padding-top: $padding-vertical;
     padding-bottom: $padding-vertical;
+}
+
+.title {
+    color: $color-primary-dark-blue; 
+    font-weight: $fw-light;
 }
 
 // === HEADER ===
@@ -112,9 +118,7 @@ body {
 
 
 .intro__title {
-    color: $color-primary-dark-blue;
     font-size: 3em;
-    font-weight: $fw-light;
     line-height: 1.15;
 }
 
@@ -140,8 +144,31 @@ body {
     background-color: $color-neutral-light-grayish-blue;
     margin-top: -450px;
     .section-inner {
-        padding-top: 180px;
+        padding-top: 60px;
     }
+}
+
+.features__title {
+    font-size: 2.2rem;
+    margin-bottom: 0;
+}
+
+.features__description {
+    margin-bottom: 4.2rem;
+}
+
+.features__cards {
+    display: flex; 
+    gap: 1.5rem;
+}
+
+.card__title {
+    font-size: 1.3rem;
+}
+
+.card__text {
+    font-size: 0.85rem;
+    line-height: 1.75;
 }
 
 // === ARTICLES ===
