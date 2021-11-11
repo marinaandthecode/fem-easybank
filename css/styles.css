@@ -86,7 +86,7 @@ html, body {
 
 .section-features {
   background-color: #f3f4f6;
-  margin-top: -450px; }
+  margin-top: -480px; }
   .section-features .section-inner {
     padding-top: 60px; }
 
@@ -110,6 +110,47 @@ html, body {
 
 .section-articles {
   background-color: #fafafa; }
+  .section-articles .section-inner {
+    padding-top: 50px;
+    padding-bottom: 85px; }
+
+.articles__title {
+  font-size: 2.2rem;
+  margin-bottom: 2.4rem; }
+
+.articles__cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem; }
+
+.articles__card {
+  background-color: #fff;
+  border-radius: 5px; }
+
+.article__image {
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+  width: 256px;
+  height: 200px; }
+
+.article__content {
+  padding: 0.5rem 1.3rem 0.5rem 1.5rem; }
+
+.article__author {
+  font-size: 0.55rem;
+  padding: 0.2rem 0; }
+
+.article__title {
+  color: #2d314d;
+  font-size: 0.9rem;
+  font-weight: 300;
+  margin: 0.15rem 0;
+  padding: 0.1rem 0; }
+
+.article__text {
+  font-size: 0.7rem;
+  margin-top: 0;
+  line-height: 1.35; }
 
 .section-footer {
   background-color: #2d314d;
