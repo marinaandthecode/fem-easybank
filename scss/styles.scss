@@ -409,6 +409,18 @@ html, body {
     line-height: 1.35;
 }
 
+@media (max-width: 480px) {
+    .articles__title {
+        font-size: 2rem; 
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .articles__card {
+        padding-bottom: 1.5rem;
+    }
+}
+
 // === FOOTER ===
 .section-footer {
     background-color: $color-primary-dark-blue;
