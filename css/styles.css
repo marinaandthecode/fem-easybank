@@ -283,15 +283,10 @@ html, body {
 .section-footer {
   background-color: #2d314d; }
   .section-footer .section-inner {
-    padding: 50px 0;
+    padding: 50px 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center; }
-
-@media (max-width: 768px) {
-  .section-footer .section-inner {
-    flex-direction: column;
-    justify-content: center; } }
 
 .footer__socials {
   margin: 2.5rem 0 0;
@@ -301,6 +296,9 @@ html, body {
 .socials__item {
   display: inline-block;
   margin-right: 10px; }
+
+.socials__item:last-of-type {
+  margin-right: 0; }
 
 .socials__link {
   display: inline-block;
@@ -362,3 +360,22 @@ html, body {
 
 .footer__copyright {
   font-size: 0.85rem; }
+
+@media (max-width: 768px) {
+  .section-footer .section-inner {
+    flex-direction: column;
+    text-align: center; }
+  .footer__nav {
+    max-width: fit-content; }
+    .footer__nav .nav__list {
+      padding: 1rem; }
+    .footer__nav .nav__item {
+      padding: 0.5rem 1rem; }
+  .footer__info {
+    text-align: center; } }
+
+@media (max-width: 480px) {
+  .footer__nav .nav__list {
+    grid-template-columns: 1fr; }
+  .footer__button {
+    margin: 0.5rem; } }
