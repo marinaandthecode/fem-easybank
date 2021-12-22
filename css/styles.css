@@ -190,13 +190,26 @@ html, body {
   gap: 1.5rem; }
 
 @media (max-width: 768px) {
+  .section-features {
+    text-align: center; }
+  .features__description {
+    padding: 0 4rem; }
   .features__cards {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media (max-width: 480px) {
+  .features__title {
+    font-size: 1.8rem;
+    padding: 0 1.5rem;
+    line-height: 1.15; }
+  .features__description {
+    font-size: 90%;
+    margin-bottom: 3rem; }
+  .features__description {
+    padding: 0 1.5rem; }
   .features__cards {
     grid-template-columns: 1fr;
-    text-align: center; } }
+    grid-gap: 2rem; } }
 
 .card__title {
   font-size: 1.3rem; }
